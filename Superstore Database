@@ -43,7 +43,7 @@ SELECT avg(price)
 FROM superstore
 WHERE category="Kitchen Supplies";
 
-#Show a statistic about the quantity of Air Purifiers in stock
+#Show a statistic about the quantity of Air Purifiers in stock.
 SELECT item_id, item_name, stock_quantity
 FROM superstore
 WHERE item_name='Air Purifier';
